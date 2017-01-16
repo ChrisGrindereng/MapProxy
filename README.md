@@ -1,3 +1,10 @@
+# MapProxy
+-A Web Application built for experimenting with API connections
+-A user may make post requests to Google Maps' API by entering a search term into the Swagger interface on the web page
+-This web application is built on the .NET Core Boilerplate. More information below
+
+
+
 # .NET Core Boilerplate
 
 > note: alpha stages
