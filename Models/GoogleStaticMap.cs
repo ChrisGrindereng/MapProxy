@@ -6,6 +6,9 @@ using System;
 using System.Net.Http;
 using Newtonsoft.Json;
 
+namespace StaticMaps
+{
+    
 
 public class Size
 {
@@ -13,7 +16,7 @@ public class Size
     public int height { get; set; }
 }
 
-public class Location2
+public class Location
 {
     public double lat { get; set; }
     public double lng { get; set; }
@@ -29,9 +32,16 @@ public class Marker
 public class GoogleStaticMaps
 {
     public string imageUrl { get; set; }
-    public string timestamp { get; set; }
+    public string timestamp { get; set; } = DateTime.Now.ToString();
     public string searchTerm { get; set; }
     public int zoomLevel { get; set; }
     public Size size { get; set; }
     public List<Marker> markers { get; set; }
+
+    public GoogleStaticMaps(string searchTerm, int zoomLevel){
+    
+        this.searchTerm = searchTerm;
+        this.zoomLevel = zoomLevel;
+    }
+}
 }

@@ -14,9 +14,6 @@ public interface IGoogleRepo {
     
 }
 
- 
-
-
 public class AddressComponent
 {
     public string long_name { get; set; }
