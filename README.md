@@ -11,7 +11,7 @@ C#  .NET Core, RESTful Web API, Google Geocode API, JSON, Swagger.ui
 ###Challenges
 - Being my first API application the issue I faced here was learning how to work with JSON APIs and how to properly implement the key. I found many answers to these problems simply by reading through googles own documentation about its API. Google is clear on how to obtain and implement a key into the header of the JSON. 
 
-- The next challenge was serializing the de-serializing the JSON into my class structure. This turns out to be simple with the use of a JSON2#C translator. 
+- The next challenge was de-serializing the JSON into my class structure. This turns out to be simple with the use of a JSON2#C translator. 
 
 ###Error Handling and Troubleshooting
 - Most of my trouble shooting was done with the use of Postman, an API test application, for testing how to implement the security key. 
